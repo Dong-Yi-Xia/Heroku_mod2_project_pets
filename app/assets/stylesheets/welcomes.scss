@@ -1,0 +1,45 @@
+// Place all the styles related to the welcomes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+body.contact_page {
+        background: url("Horizontal_14.jpg") no-repeat center center fixed;
+        background-size: cover; 
+        overflow: visible;
+}
+
+body.about_page{
+    background: url("Vertical_02.jpg") no-repeat center center fixed;
+    background-size: cover; 
+    overflow: visible;
+}
+
+.pigeonMVP_image{
+    border-radius: 70%;
+    height: 40%;
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.mvp_info{
+    color: rgb(42, 120, 238);
+    text-align: center;
+    font-size: 4em;
+    font-weight: 700;
+    text-shadow: 0px 0px 25px #f09f0a;
+}
+
+p.mvp_info{
+    font-size: 7em;
+    text-align: center;
+}
+
+.about_info_text {
+    color: rgb(42, 120, 238);
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 700;
+    text-shadow: 0px 0px 25px #f09f0a;
+}

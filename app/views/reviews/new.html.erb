@@ -1,0 +1,15 @@
+<body class ="new_review_page">
+<div class="review_container">
+     <h1> Write a New Review! </h1>
+
+     <div class="error_message">
+          <%if @errors%>
+          <%= @errors%> <p>
+          <%end%>
+     </div>
+
+     <%= render "form" %>
+</div>
+</body>
+
+
